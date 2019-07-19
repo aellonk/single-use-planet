@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Items from './Items';
+import FeedbackForm from './FeedbackForm'
 import './App.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
 			<div> 
 				App Container
 				<Items items={this.state.items} />
+				<FeedbackForm />
 			</div>
 		)
 	}
