@@ -6,7 +6,8 @@ class FeedbackForm extends Component {
 			<div>
 				<h3>Has this site helped you reduce, reuse, or recycle your items? </h3>
 				<form>
-					<button value="Submit">Yes</button>
+					<button type="submit" value="Yes">Yes</button>
+					<button type="submit" value="No">No</button>
 				</form>
 			</div>
 		)

@@ -14,13 +14,12 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch('http://localhost:3001/api/items')
+		fetch('http://localhost:3000/api/items')
 		.then(response => response.json())
 		.then(items => this.setState({ items}))
 	}
 
 	render() {
-		console.log(this.state)
 		return (
 			<div> 
 				App Container
